@@ -116,18 +116,6 @@
             <!--<scope>provided</scope>-->
         <!--</dependency>-->
     </dependencies>
-	<distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://10.0.2.15:8081/repository/Sample-rel/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://10.0.2.15:8081/repository/Snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement
 
     <!-- Package as an executable jar -->
     <build>
